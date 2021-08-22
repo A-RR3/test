@@ -1,0 +1,51 @@
+.menu-side {
+    width: 50%;
+}
+
+.menu-side>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #707070;
+    text-decoration: none;
+}
+
+.contact-us-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-side>a {
+    font-size: 40px;
+    color: #707070;
+    text-decoration: none;
+}
+
+.item {
+    width: 100%;
+    font-family: sans-serif;
+    padding: 10px;
+    padding-left: 100px;
+    justify-content: space-around;
+}
+
+.item>a {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: #414141;
+}
+
+.item-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
